@@ -13,8 +13,27 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.title {
+  border-top: 20px solid white;
+}
+
+.content {
+  padding: 20px 10px;
 }
 
 button {
   background: white;
+  padding: 10px 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container {
+  border-bottom: 10px solid white;
+  text-align: center;
 }
